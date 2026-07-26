@@ -1,8 +1,27 @@
 aid: eversight
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eversight.png
 name: Eversight
-description: 'Eversight is a company surfaced as a portfolio company of emergence-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: retail-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Eversight is an AI-powered pricing and promotions software company serving consumer packaged
+  goods (CPG) brands and retailers. Its SaaS platform runs continuous, controlled experiments testing
+  untried everyday prices and promotional offers with real shoppers, then applies advanced analytics and
+  AI-powered experimentation to surface revenue-optimizing price and offer recommendations. The product
+  is delivered as two suites — a Retail Pricing Suite that integrates with physical and digital store
+  networks, and an Offer Innovation Suite for CPG trade-promotion teams that deploys standalone or on top
+  of existing TPM systems. Eversight was founded in 2013, acquired by Instacart in 2022, and targets
+  revenue-management, trade-marketing, sales, pricing, and merchant teams. It is a portfolio company of
+  Emergence Capital. No public developer API, OpenAPI definition, or developer portal is published — the
+  platform is an enterprise SaaS engagement.'
 url: https://raw.githubusercontent.com/api-evangelist/eversight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Retail Tech
+- Pricing
+- Promotions
+- CPG
+- Artificial Intelligence
+- Revenue Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.eversight.com
+  url: https://eversightlabs.com
+- type: SignUp
+  url: https://app.eversightlabs.com/index.html
+- type: DomainSecurity
+  url: security/eversight-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
